@@ -37,4 +37,32 @@ print(squares)
 #Slicing list
 print("the first two elements of the list: ")
 print(squares[0:2]) #print only the first two elemments
+print("\nprint the whole list:")
+print(squares[:])
+
+#immutable list "tuple"
+names = ('tony', 'jimmy', 'jordan')
+print(names[:])
+
+#if-statement
+cars = ['bmw', 'benz', 'toyota', 'jaguar']
+for car in cars:
+	if car == 'bmw':
+		print(car.upper())
+	else:
+		print(car.title())
+		
+car = 'audi'
+if car not in cars:
+	print(car.title() + " is not available.")
+
+#test empty list
+cars = []
+if cars:
+	print("it's not empty.")
+else:
+	print("it's empty.")
+
+
+
 
