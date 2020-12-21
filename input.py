@@ -13,3 +13,6 @@ while message != 'quit':
 	if message != 'quit':
 		print(message)
 
+
+number = input('input your lucky numbers: ')
+print("Your lucky number is " + str(number))
