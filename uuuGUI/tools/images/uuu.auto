@@ -1,0 +1,23 @@
+uuu_version 1.0.1
+
+# Based on UUU source code ">" character is necessary to be able to use absolute path and not relative ones
+#SDP: boot -f >/media/factory/imx-boot.bin
+#SDPV: write -f >/media/factory/imx-boot.bin -skipspl
+#SDPV: jump
+
+#FB: download -f >/media/factory/fitImage
+#FB: ucmd setenv verify no
+#FB: acmd run mfg_run
+#FB: done
+
+# new scripts that fitting this directory
+
+
+SDP: boot -f .\imx-boot.bin
+SDPV: write -f .\imx-boot.bin -skipspl
+SDPV: jump
+
+FB: download -f .\fitImage
+FB: ucmd setenv verify no
+FB: acmd run mfg_run
+FB: done

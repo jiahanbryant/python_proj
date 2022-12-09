@@ -1,0 +1,2 @@
+hello world!
+factory_tool test_audio_output sweep 0.5 all

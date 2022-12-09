@@ -1,0 +1,7 @@
+## This is using python script to try to automate procedures for recovery of module from uboot commands.
+- `uboot` have to be working;
+
+- GUI is designed basing on pysimplegui module (https://pysimplegui.readthedocs.io/en/latest/);
+
+- some custom files are needed (project specific);
+
